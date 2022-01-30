@@ -3,7 +3,7 @@
 
 def max_sum(arr, windowSize):
     arraySize = len(arr)
-    if (arraySize <= windowSize):
+    if arraySize <= windowSize:
         print("Invalid Operation!")
         return -1
     window_sum = sum([arr[i] for i in range(windowSize)])
