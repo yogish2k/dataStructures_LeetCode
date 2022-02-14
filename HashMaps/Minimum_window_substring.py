@@ -39,7 +39,7 @@ class Solution:
                     startIndex = left
 
         if startIndex == -1:
-            return "No"
+            return "Pattern doesn't exists in string"
         return s[startIndex:startIndex + minLen]
 
 
